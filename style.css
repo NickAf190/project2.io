@@ -1,0 +1,252 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: "Forum", serif;
+}
+
+.head_img{
+    margin: 0 auto;
+    text-align: center;
+}
+img{
+    width: 10vw;
+    height:20vh;
+}
+.name{
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 0;
+}
+h1{
+    margin: 0;
+}
+.contacts{
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    word-spacing: 5px;
+    color: rgb(239, 235, 7);
+}
+nav a:hover {
+    text-shadow: 0 0 5px #f8f403d5;
+}
+div nav{
+    background-color:black; 
+    padding: 0;
+    margin: 0;
+}
+.main_photo{
+    background-image: url('https://img.goodfon.ru/original/1600x900/c/d9/stasov-vitalii-fizalis-i-chashka-natiurmort-vaza-tsvetok-fiz.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    }
+.square {
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+h2{
+    color: rgb(251, 230, 0);
+    font-size: 1.4rem;
+    text-align: center;
+}
+.square p {
+    color: rgb(255, 238, 0);
+}
+.submit {
+    padding: 12px 28px;
+    background-color: transparent;
+    color: #00ff88; /* Неоново-зелёный */
+    border: 2px solid #00ff88;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: text-shadow 0.3s, box-shadow 0.3s;
+    display: block;
+    margin: 50px auto; /* Автоматические отступы по бокам */
+    min-width: 12vw;
+}
+
+
+.submit:hover {
+    text-shadow: 0 0 5px #00ff88;
+    box-shadow: 0 0 15px #00ff88;
+}
+
+.submit_2 {
+    padding: 10px;
+    background-color: transparent;
+    color: #00ff88; /* Неоново-зелёный */
+    border: 2px solid #00ff88;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: text-shadow 0.3s, box-shadow 0.3s;
+    display: block;
+    min-width: 12vw;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.submit_2:hover{
+    text-shadow: 0 0 5px #00ff88;
+    box-shadow: 0 0 15px #00ff88;
+}
+
+.ststistic{
+    min-height: 18vh;
+    background-color: rgba(255, 158, 3, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.ststistic span{
+    color: #646161;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+.ststistic span:hover {
+text-shadow: 0 0 5px #646161;
+}
+h3 {
+text-align: center;
+font-size: 2rem;
+padding: 10px;
+}
+.img_language,.img_language_2,.img_language_3  {
+    border: 0 solid #fffdfdd5;
+    border-radius: 100%;
+    max-width:250px;
+    width: 100%;
+    height: 250px;
+}
+.goods_1, .goods_2, .goods_3 {
+    max-width: 400px;
+    max-height: 400px;
+    text-align: center;
+    margin-left: 55px;
+}
+
+.goods {
+    display: flex; /*расположил блоки див не сверху вниз а рядом*/
+    gap: 20px; 
+    min-height: 50vh;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.form{
+    background-color: #ff9d00;
+    color: aliceblue;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+
+h4 {
+    font-size: 1.9rem;
+}
+
+h5 {
+font-size: 1.9rem;
+color: black;
+transition: all 0.3s ease;
+}
+
+h5:hover{
+    text-shadow: 0 0 5px #ff9d00;
+}
+
+
+.text_form {
+    max-width: 700px;
+    margin-left: 5%;
+}
+.form_1{
+    font-size: 2rem;
+}
+.text_form p:not(.form_1){
+    font-size: 1.2rem;
+}
+
+.form_container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: 25px;
+    margin-top: 25px;
+    border-radius: 10px; 
+    max-width: 300px;
+    min-height: 300px;
+    max-height: 400px;
+    line-height: 1.6rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+input {
+
+border: none;
+font-size: 1.1rem;
+background-color:#ff9d00;
+color: white;
+border-bottom: 1px solid white;
+}
+.submit_3 {
+    border: 2px solid #ff9d00;
+    background-color: transparent;/*убирает фон*/
+    font-size: 1.1rem;
+    color: #ff9d00;
+    text-transform: uppercase;
+    padding: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 0;
+    transition: all 0.3s ease;
+}
+
+
+.submit_3:hover{
+    text-shadow: 0 0 5px #ff9d00;
+    box-shadow: 0 0 15px #ff9d00;
+}
+.contacts_2 {
+    text-align: center;
+    background-color: #646161;
+    font-size: 1.2rem;
+    color: white;
+}
+.img_2{
+    width: 5vw;
+    height: 10vh;
+}
+
+.forum-regular {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+}
