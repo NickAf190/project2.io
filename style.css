@@ -1,5 +1,4 @@
 
-
 * {
     box-sizing: border-box;
 }
@@ -154,7 +153,7 @@ padding: 10px;
     border-radius: 5px;
 }
 
-.goods {
+#goods {
     display: flex; /*расположил блоки див не сверху вниз а рядом*/
     gap: 20px; 
     min-height: 50vh;
@@ -195,7 +194,7 @@ h5:hover{
     max-width: 700px;
     margin-left: 5%;
 }
-.form_1{
+#form_1{
     font-size: 2rem;
 }
 .text_form p:not(.form_1){
@@ -241,7 +240,7 @@ border-bottom: 1px solid white;
     text-shadow: 0 0 5px #ff9d00;
     box-shadow: 0 0 15px #ff9d00;
 }
-.contacts_2 {
+#contacts_2 {
     text-align: center;
     background-color: #646161;
     font-size: 1.2rem;
